@@ -94,12 +94,13 @@ const Index = () => {
               Tipos de Imóveis
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Encontre exatamente o que você procura entre nossa ampla variedade de propriedades
+              Encontre exatamente o que você procura entre nossa ampla variedade de propriedades:
             </p>
           </div>
           
           <div className="flex flex-wrap items-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
-            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in">
+            <a href="">
+              <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in cursor-pointer">
               <CardContent className="p-8">
                 <div className="bg-gradient-hero p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
                   <Home className="w-8 h-8 text-primary-foreground" />
@@ -109,19 +110,22 @@ const Index = () => {
                 <Badge variant="secondary">350+ disponíveis</Badge>
               </CardContent>
             </Card>
-            
-            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in" style={{ animationDelay: "0.1s" }}>
-              <CardContent className="p-8">
-                <div className="bg-gradient-luxury p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
-                  <Building className="w-8 h-8 text-luxury-foreground" />
-                </div>
+            </a>
+            <a href="">
+              <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in cursor-pointer" style={{ animationDelay: "0.1s" }}>
+                <CardContent className="p-8">
+                  <div className="bg-gradient-luxury p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
+                    <Building className="w-8 h-8 text-luxury-foreground" />
+                  </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Casas</h3>
                 <p className="text-muted-foreground mb-4">Espaçosas para toda a família</p>
                 <Badge variant="secondary">180+ disponíveis</Badge>
               </CardContent>
             </Card>
+            </a>
             
-            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in" style={{ animationDelay: "0.2s" }}>
+            <a href="">
+              <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in cursor-pointer" style={{ animationDelay: "0.2s" }}>
               <CardContent className="p-8">
                 <div className="bg-gradient-hero p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
                   <TreePine className="w-8 h-8 text-primary-foreground" />
@@ -131,8 +135,10 @@ const Index = () => {
                 <Badge variant="secondary">90+ disponíveis</Badge>
               </CardContent>
             </Card>
+            </a>
             
-            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in" style={{ animationDelay: "0.3s" }}>
+            <a href="">
+              <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in cursor-pointer" style={{ animationDelay: "0.3s" }}>
               <CardContent className="p-8">
                 <div className="bg-gradient-luxury p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
                   <Store className="w-8 h-8 text-luxury-foreground" />
@@ -142,8 +148,10 @@ const Index = () => {
                 <Badge variant="secondary">75+ disponíveis</Badge>
               </CardContent>
             </Card>
+            </a>
 
-            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in" style={{ animationDelay: "0.3s" }}>
+            <a href="">
+              <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in cursor-pointer" style={{ animationDelay: "0.3s" }}>
               <CardContent className="p-8">
                 <div className="bg-gradient-hero p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
                   <LampCeiling className="w-8 h-8 text-primary-foreground" />
@@ -153,6 +161,7 @@ const Index = () => {
                 <Badge variant="secondary">50+ disponíveis</Badge>
               </CardContent>
             </Card>
+            </a>
           </div>
         </div>
       </section>
@@ -165,7 +174,7 @@ const Index = () => {
               Imóveis em <span className="text-primary">Destaque</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Selecionamos as melhores oportunidades:
+              Selecionamos as melhores oportunidades para você!
             </p>
           </div>
           
@@ -194,7 +203,7 @@ const Index = () => {
               Por Que Escolher a <span className="text-primary">Premium Imóveis</span>?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Nossa experiência e dedicação garantem o melhor serviço para você
+              Nossa experiência e dedicação garantem o melhor serviço para você!
             </p>
           </div>
           

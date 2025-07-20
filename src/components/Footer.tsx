@@ -16,7 +16,7 @@ export function Footer() {
                 <h2 className="text-xl font-bold">
                   Premium<span className="text-luxury">Imóveis</span>
                 </h2>
-                <p className="text-xs text-background/70">Sua casa dos sonhos</p>
+                <p className="text-xs text-background/70">O Imóvel dos Seus Sonhos</p>
               </div>
             </div>
             <p className="text-background/80 text-sm leading-relaxed">

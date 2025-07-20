@@ -39,7 +39,7 @@ O ortograficamente correto é "toda A família". Está faltando o artigo "a" no 
 
 - ![alt text](image-9.png)
 
-O título da página não é tão coeso com o que o site propõe, pois ele é de uma imobiliária que aluga/vende diversos tipos de imóveis, não somente casas. Para tal nicho, seria ideal ter "Seu Imóvel dos Sonhos" ao invés de "Sua casa dos Sonhos".
+O título da página não é tão coeso com o que o site propõe, pois ele é de uma imobiliária que aluga/vende diversos tipos de imóveis, não somente casas. Para tal nicho, seria ideal ter "O Imóvel dos Seus Sonhos" ao invés de "Sua casa dos Sonhos". (OK)
 
 - ![alt text](image-13.png)
 - ![alt text](image-12.png)
@@ -84,3 +84,11 @@ Nesta parte, a emphasis está mau-posicionada. O texto inteiro poderia ser em az
 - ![alt text](image-24.png)
 
 Nas opções de imóveis do formulário, há a alternativa "Studio", porém na seção que mostra os Tipos de Imóveis e suas quantidades, não há o Studio disponível. (OK)
+
+- ![alt text](image-25.png)
+
+Este botão está sem transição em caso de hover (passar o mouse por cima) e com a animação de brilho sem que o usuário passe o mouse por cima.
+
+- ![alt text](image-26.png)
+
+Estes cards não possuem nenhuma distinção no cursor ao passar o mouse por cima e não estão com nenhum link, uma vez que poderiam ser usados para levar o usuário a uma busca de imóveis pela categoria clicada. (OK)

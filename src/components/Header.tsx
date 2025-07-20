@@ -14,7 +14,7 @@ export function Header() {
               <h1 className="text-xl font-bold text-foreground">
                 Premium<span className="text-primary">Imóveis</span>
               </h1>
-              <p className="text-xs text-muted-foreground">Seu imóvel dos sonhos</p>
+              <p className="text-xs text-muted-foreground">O Imóvel dos Seus Sonhos</p>
             </div>
           </div>
           
