@@ -31,7 +31,7 @@ Espaço superior e inferior nessa seção não são iguais (OK).
 - ![alt text](image-8.png)
 - ![alt text](image-10.png)
 
-Textos não finalizam apontando para o que há abaixo, para melhor indicação e estímulo do usuário para ver as opções, seria melhor ter um ":" ou "!" após o final do parágrafo dos prints. No "Por que escolher [...]" é ideal ter uma interrogação ou dois pontos finalizando.
+Textos não finalizam apontando para o que há abaixo, para melhor indicação e estímulo do usuário para ver as opções, seria melhor ter um ":" ou "!" após o final do parágrafo dos prints. No "Por que escolher [...]" é ideal ter uma interrogação ou dois pontos finalizando. (OK)
 
 ![alt text](image-7.png)
 
@@ -85,10 +85,14 @@ Nesta parte, a emphasis está mau-posicionada. O texto inteiro poderia ser em az
 
 Nas opções de imóveis do formulário, há a alternativa "Studio", porém na seção que mostra os Tipos de Imóveis e suas quantidades, não há o Studio disponível. (OK)
 
-- ![alt text](image-25.png)
-
-Este botão está sem transição em caso de hover (passar o mouse por cima) e com a animação de brilho sem que o usuário passe o mouse por cima.
-
 - ![alt text](image-26.png)
 
 Estes cards não possuem nenhuma distinção no cursor ao passar o mouse por cima e não estão com nenhum link, uma vez que poderiam ser usados para levar o usuário a uma busca de imóveis pela categoria clicada. (OK)
+
+- ![alt text](image-27.png)
+
+O botão e sua cor mudam sem que o usuário dê hover nele, mas só de dar hover no card. Uma coisa é dar o zoom na imagem do card, e outra é fazer a transição do botão.
+
+![alt text](image-28.png)
+
+As cores destes botões estão muito apagadas, e o botão de favoritar não possui cor própria. (OK)

@@ -49,14 +49,15 @@ export function PropertyCard({
           </Badge>
           
           <div className="absolute bottom-3 right-3 flex gap-2">
+            {/* Make its children get the color from the parent */}
             <Button size="icon" variant="hero" className="w-8 h-8">
-              <Heart className="w-4 h-4" />
+              <Heart className="w-4 h-4 text-red-500 " />
             </Button>
             <Button size="icon" variant="hero" className="w-8 h-8">
-              <Share2 className="w-4 h-4" />
+              <Share2 className="w-4 h-4 text-slate-100" />
             </Button>
             <Button size="icon" variant="hero" className="w-8 h-8">
-              <Camera className="w-4 h-4" />
+              <Camera className="w-4 h-4 text-slate-100" />
             </Button>
           </div>
         </div>
@@ -103,7 +104,7 @@ export function PropertyCard({
       </CardContent>
       
       <CardFooter className="p-4 pt-0">
-        <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+        <Button variant="outline" className="w-full transition-colors hover:bg-primary hover:text-primary-foreground">
           Ver Detalhes
         </Button>
       </CardFooter>
