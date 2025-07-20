@@ -35,7 +35,7 @@ Textos não finalizam apontando para o que há abaixo, para melhor indicação e
 
 ![alt text](image-7.png)
 
-O ortograficamente correto é "toda A família". Está faltando o artigo "a" no texto.
+O ortograficamente correto é "toda A família". Está faltando o artigo "a" no texto (OK).
 
 - ![alt text](image-9.png)
 
@@ -75,3 +75,12 @@ O emphasis desta parte não está bem colocado, sendo melhor deixar somente no "
 - ![alt text](image-21.png)
 
 Há muito pouco espaço entre o hero e o header nessa parte. (OK)
+
+- ![alt text](image-22.png)
+
+Nesta parte, a emphasis está mau-posicionada. O texto inteiro poderia ser em azul-escuro para contrastar melhor com a página. (OK)
+
+- ![alt text](image-23.png)
+- ![alt text](image-24.png)
+
+Nas opções de imóveis do formulário, há a alternativa "Studio", porém na seção que mostra os Tipos de Imóveis e suas quantidades, não há o Studio disponível. (OK)

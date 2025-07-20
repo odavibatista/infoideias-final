@@ -15,7 +15,8 @@ import {
   Home,
   Building,
   TreePine,
-  Store
+  Store,
+  LampCeiling
 } from "lucide-react";
 
 const Index = () => {
@@ -90,14 +91,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Tipos de <span className="text-primary">Imóveis</span>
+              Tipos de Imóveis
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Encontre exatamente o que você procura entre nossa ampla variedade de propriedades
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="flex flex-wrap items-center justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
             <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in">
               <CardContent className="p-8">
                 <div className="bg-gradient-hero p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
@@ -115,7 +116,7 @@ const Index = () => {
                   <Building className="w-8 h-8 text-luxury-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Casas</h3>
-                <p className="text-muted-foreground mb-4">Espaçosas para toda família</p>
+                <p className="text-muted-foreground mb-4">Espaçosas para toda a família</p>
                 <Badge variant="secondary">180+ disponíveis</Badge>
               </CardContent>
             </Card>
@@ -126,7 +127,7 @@ const Index = () => {
                   <TreePine className="w-8 h-8 text-primary-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Terrenos</h3>
-                <p className="text-muted-foreground mb-4">Para construir seu projeto</p>
+                <p className="text-muted-foreground mb-4">Para construir o seu projeto</p>
                 <Badge variant="secondary">90+ disponíveis</Badge>
               </CardContent>
             </Card>
@@ -137,8 +138,19 @@ const Index = () => {
                   <Store className="w-8 h-8 text-luxury-foreground" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Comerciais</h3>
-                <p className="text-muted-foreground mb-4">Para seu negócio prosperar</p>
+                <p className="text-muted-foreground mb-4">Para o seu negócio prosperar</p>
                 <Badge variant="secondary">75+ disponíveis</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center group hover:shadow-strong transition-all duration-300 bg-gradient-card border-0 animate-scale-in" style={{ animationDelay: "0.3s" }}>
+              <CardContent className="p-8">
+                <div className="bg-gradient-hero p-4 rounded-full w-16 h-16 mx-auto mb-4 group-hover:animate-glow">
+                  <LampCeiling className="w-8 h-8 text-primary-foreground" />
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-2">Studios</h3>
+                <p className="text-muted-foreground mb-4">Para começar a sua história</p>
+                <Badge variant="secondary">50+ disponíveis</Badge>
               </CardContent>
             </Card>
           </div>
@@ -153,7 +165,7 @@ const Index = () => {
               Imóveis em <span className="text-primary">Destaque</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Selecionamos as melhores oportunidades para você
+              Selecionamos as melhores oportunidades:
             </p>
           </div>
           
@@ -179,7 +191,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Por Que Escolher a <span className="text-primary">Premium Imóveis</span>
+              Por Que Escolher a <span className="text-primary">Premium Imóveis</span>?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Nossa experiência e dedicação garantem o melhor serviço para você
