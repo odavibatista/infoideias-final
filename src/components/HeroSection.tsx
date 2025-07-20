@@ -23,7 +23,7 @@ export function HeroSection() {
           <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-tight">
             Encontre Seu
             <span className="block bg-gradient-luxury bg-clip-text text-transparent">
-              Lar Perfeito
+              Imóvel Perfeito
             </span>
           </h1>
           
@@ -36,8 +36,8 @@ export function HeroSection() {
               <TrendingUp className="w-5 h-5 mr-2" />
               Explorar Imóveis
             </Button>
-            <Button variant="hero" size="xl">
-              <Play className="w-5 h-5 mr-2" />
+            <Button variant="hero" size="xl" className="text-background">
+              <Play className="w-5 h-5 mr-2 text-background" />
               Assistir Tour Virtual
             </Button>
           </div>
@@ -63,7 +63,7 @@ export function HeroSection() {
         <PropertySearch />
         
         {/* Trust Indicators */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-12 opacity-80">
+        <div className="flex flex-wrap justify-center items-center gap-8 my-20 opacity-80">
           <div className="flex items-center text-background/70">
             <Users className="w-5 h-5 mr-2" />
             <span className="text-sm">Mais de 10.000 clientes atendidos</span>
@@ -74,9 +74,9 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-      
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+
+      {/* Scroll Indicator, increase its distance from other components */}
+      <div className="absolute bottom-1 py-2 left-1/2 transform -translate-x-1/2 animate-bounce hidden lg:block">
         <div className="w-6 h-10 border-2 border-background/50 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-background/70 rounded-full mt-2"></div>
         </div>

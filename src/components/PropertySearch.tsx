@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card } from "@/components/ui/card";
-import { Search, MapPin, Home, DollarSign } from "lucide-react";
+import { Search, MapPin, Home, DollarSign, Bed } from "lucide-react";
 
 export function PropertySearch() {
   return (
@@ -57,6 +57,7 @@ export function PropertySearch() {
           <label className="text-sm font-medium text-muted-foreground">Quartos</label>
           <Select>
             <SelectTrigger className="bg-background/50 border-border/50 focus:bg-background">
+              <Bed className="w-4 h-4 mr-1 text-muted-foreground" />
               <SelectValue placeholder="Nº quartos" />
             </SelectTrigger>
             <SelectContent className="bg-popover border-border/50">
@@ -69,12 +70,12 @@ export function PropertySearch() {
         </div>
       </div>
       
-      <div className="flex gap-3">
+      <div className="flex gap-3 flex-wrap justify-center">
         <Button variant="premium" size="lg" className="flex-1">
           <Search className="w-5 h-5 mr-2" />
           Buscar Imóveis
         </Button>
-        <Button variant="outline" size="lg">
+        <Button variant="outline" size="lg" className="flex-1">
           Filtros Avançados
         </Button>
       </div>

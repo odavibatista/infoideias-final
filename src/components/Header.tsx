@@ -3,7 +3,7 @@ import { Home, Phone, Mail, User } from "lucide-react";
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border/50 animate-fade-in">
+    <header className="sticky top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border/50 animate-fade-in ">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -14,7 +14,7 @@ export function Header() {
               <h1 className="text-xl font-bold text-foreground">
                 Premium<span className="text-primary">Imóveis</span>
               </h1>
-              <p className="text-xs text-muted-foreground">Sua casa dos sonhos</p>
+              <p className="text-xs text-muted-foreground">Seu imóvel dos sonhos</p>
             </div>
           </div>
           
