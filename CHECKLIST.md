@@ -96,3 +96,11 @@ O botão e sua cor mudam sem que o usuário dê hover nele, mas só de dar hover
 ![alt text](image-28.png)
 
 As cores destes botões estão muito apagadas, e o botão de favoritar não possui cor própria. (OK)
+
+- ![alt text](image-29.png)
+
+O botão "Anunciar" aparece ao lado do Login, e em sistemas desse tipo, é preciso possuir uma conta cadastrada para se anunciar. O ideal é remover ou substituir por "Registro". (OK)
+
+- ![alt text](image-30.png)
+
+O alinhamento dos cards está descentralizando eles em alguns pontos. (OK)

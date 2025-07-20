@@ -51,8 +51,8 @@ export function Header() {
               <User className="w-4 h-4 mr-2" />
               Login
             </Button>
-            <Button variant="premium" size="sm">
-              Anunciar
+            <Button variant="premium" size="sm" className="hidden sm:inline-flex">
+              Registro
             </Button>
           </div>
         </div>
