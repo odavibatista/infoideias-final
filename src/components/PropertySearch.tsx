@@ -14,7 +14,7 @@ export function PropertySearch() {
             <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
             <Input 
               placeholder="Cidade, bairro ou região" 
-              className="pl-10 bg-background/50 border-border/50 focus:bg-background"
+              className="pl-10 bg-background/50 border-border/50 focus:bg-background text-center"
             />
           </div>
         </div>

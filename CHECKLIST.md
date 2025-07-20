@@ -1,11 +1,11 @@
 # Bugs/Problemas encontrados
 - ![alt text](image.png)
 
-Sem flex-wrap nos botões do formulário principal.
+Sem flex-wrap nos botões do formulário principal. (OK)
 
-- ![alt text](image-1.png)
+- ![alt text](image-1.png) 
 
-Gif de mouse aparecendo em breakpoint de mobiles (contra intuitivo).
+Gif de mouse aparecendo em breakpoint de mobiles (contra intuitivo). (OK)
 
 - ![alt text](image-2.png)
 
@@ -13,19 +13,19 @@ Cor do texto dos botões não combinando com a cor do texto do componente de cim
 
 - ![alt text](image-11.png)
 
-No desktop, este botão está sobrepondo o formulário de cima.
+No desktop, este botão está sobrepondo o formulário de cima (OK).
 
 - ![alt text](image-3.png)
 
-Header sendo transposto em breakpoints mobile.
+Header sendo transposto em breakpoints mobile (OK).
 
 - ![alt text](image-4.png)
 
-Hero da página sendo sobreposto pelo header.
+Hero da página sendo sobreposto pelo header (OK).
 
 - ![alt text](image-5.png)
 
-Espaço superior e inferior nessa seção não são iguais.
+Espaço superior e inferior nessa seção não são iguais (OK).
 
 - ![alt text](image-6.png)
 - ![alt text](image-8.png)
@@ -48,18 +48,22 @@ Na versão mobile, as opções do header desaparecem, sem nenhum botão de colla
 
 - ![alt text](image-14.png)
 
--O ícone exibido na aba do navegador é de um coração que não aparece em nenhum ponto da página, enquanto que o ícone usado no Header é mais coeso, por possuir a cor da identidade visual do site:
+-O ícone exibido na aba do navegador é de um coração que não aparece em nenhum ponto da página, enquanto que o ícone usado no Header é mais coeso, por possuir a cor da identidade visual do site: (OK)
 
 ![alt text](image-15.png)
 
 - ![alt text](image-16.png)
 
-O botão está entrelaçado com os indicadores.
+O botão está entrelaçado com os indicadores. (OK)
 
 - ![alt text](image-17.png)
 
-A cor do texto do botão fica um pouco misturada com o fundo, apesar do blur.
+A cor do texto do botão fica um pouco misturada com o fundo, apesar do blur. (OK)
 
 - ![alt text](image-18.png)
 
-Nesse conjunto de selects, todos possuem algum ícone à esquerda do input, exceto o de número de quartos, deixando ele fora do padrão da GUI.
+Nesse conjunto de selects, todos possuem algum ícone à esquerda do input, exceto o de número de quartos, deixando ele fora do padrão da GUI. (OK)
+
+- ![alt text](image-19.png)
+
+Nesse formulário, todos os inputs estão com os seus textos internos centralizados, exceto o de "Localização". (OK)
