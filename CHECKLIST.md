@@ -9,7 +9,7 @@ Gif de mouse aparecendo em breakpoint de mobiles (contra intuitivo). (OK)
 
 - ![alt text](image-2.png)
 
-Cor do texto dos botões não combinando com a cor do texto do componente de cima.
+Cor do texto dos botões não combinando com a cor do texto do componente de cima (OK).
 
 - ![alt text](image-11.png)
 
@@ -67,3 +67,11 @@ Nesse conjunto de selects, todos possuem algum ícone à esquerda do input, exce
 - ![alt text](image-19.png)
 
 Nesse formulário, todos os inputs estão com os seus textos internos centralizados, exceto o de "Localização". (OK)
+
+- ![alt text](image-20.png)
+
+O emphasis desta parte não está bem colocado, sendo melhor deixar somente no "Nosso Clientes". (OK)
+
+- ![alt text](image-21.png)
+
+Há muito pouco espaço entre o hero e o header nessa parte. (OK)

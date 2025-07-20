@@ -225,7 +225,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              O Que Nossos <span className="text-primary">Clientes Dizem</span>
+              O Que <span className="text-primary">Nossos Clientes</span> Dizem
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Histórias reais de quem confiou em nós para realizar seus sonhos
@@ -272,7 +272,7 @@ const Index = () => {
                 <MapPin className="w-5 h-5 mr-2" />
                 Falar com Especialista
               </Button>
-              <Button variant="hero" size="xl">
+              <Button variant="secondary" size="xl">
                 Agendar Visita
               </Button>
             </div>
